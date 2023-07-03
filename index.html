@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Checker</title>
+</head>
+
+<body>
+    <h1 style="color: blue;">
+        Grade Checker </h1>
+    <script>
+        var grade = prompt("Type Your Percentage")
+        if (grade >= 90 && grade <= 100) {
+            document.write("EXCELLENT! KEEP IT UP You got A+ Grade");
+        }
+
+        else if (grade >= 80 && grade < 90) {
+            document.write("GOOD! KEEP IT UP You got A Grade");
+
+        }
+        else if (grade >= 70 && grade < 80) {
+            document.write("FINE! You got B Grade");
+
+        }
+        else if (grade >= 60 && grade < 70) {
+            document.write("NOT GOOD! You got C Grade");
+        }
+        else if (grade >= 50 && grade < 60) {
+            document.write("NOT GOOD! You got E Grade");
+        }
+        else if (grade < 50 && grade >= 0) {
+            document.write("FAIL! You got F Grade");
+        } else {
+            document.write("Enter Valid Percetage");
+
+        }
+
+    </script>
+</body>
+
+</html>
